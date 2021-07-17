@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteTest" verbose="1" thread-count="1" parallel="tests">
+
+	<test name="Test">
+		<parameter name="browser" value="CHROME" />
+		<parameter name="ambiente" value="HOMOLOGACAO" />
+        <parameter name="tipoExecucao" value="LOCAL" />
+		<classes>
+			<class name="runners.MainRunner"></class>
+		</classes>
+	</test>
+
+</suite>
